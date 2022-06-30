@@ -173,7 +173,7 @@ namespace CSharp_HomeWork_Les2
             else if (a >= 20 & a <= 99)
             {
                 int units = a % 10;
-                int dozens = (int)(a / 10);
+                int dozens = (a / 10);
                 string capitalizeUnit = "";
 
                 switch (units)
